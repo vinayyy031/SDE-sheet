@@ -1,7 +1,7 @@
 //delete middle node of the stack
 #include<bits/stdc++.h>
 using namespace std;
-void solve(stack<int> s,int count, int size){
+void solve(stack<int>& s,int count, int size){
     //base case
     if(count==size/2){
         s.pop();
