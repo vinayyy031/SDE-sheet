@@ -18,10 +18,8 @@ void solve(stack<int> s,int count, int size){
 int main(){
     int count=0, size, element;
     stack<int> s;
-    cout<<"enter size";
     cin>>size;
     for(int i=0; i<size; i++){
-        cout<<"ente element"<<i<<endl;
         cin>>element;
         s.push(element);
     }
