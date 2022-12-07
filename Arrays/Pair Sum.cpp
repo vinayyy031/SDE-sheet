@@ -11,4 +11,4 @@ vector<vector<int>> pairSum(vector<int> arr, int key){
         }
     }
     return ans;
-
+}
